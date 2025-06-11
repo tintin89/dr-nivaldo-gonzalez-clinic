@@ -106,11 +106,16 @@ const Services = () => {
               </ul>
             </div>
           ))}
-        </div>
-
-        <div className="text-center mt-12">
-          <button className="btn-primary text-lg px-8 py-4">
-            Schedule a Consultation
+        </div>        <div className="text-center mt-12">
+          <button 
+            className="btn-primary text-lg px-8 py-4"
+            onClick={() => {
+              document.getElementById('contact')?.scrollIntoView({ 
+                behavior: 'smooth' 
+              });
+            }}
+          >
+            {t('services.cta.schedule')}
           </button>
         </div>
       </div>

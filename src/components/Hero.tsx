@@ -18,13 +18,25 @@ const Hero = () => {
               <p className="text-xl text-secondary-600 leading-relaxed">
                 {t('hero.subtitle')}
               </p>
-            </div>
-
-            <div className="flex flex-col sm:flex-row gap-4">
-              <button className="btn-primary text-lg px-8 py-4">
+            </div>            <div className="flex flex-col sm:flex-row gap-4">
+              <button 
+                className="btn-primary text-lg px-8 py-4"
+                onClick={() => {
+                  document.getElementById('contact')?.scrollIntoView({ 
+                    behavior: 'smooth' 
+                  });
+                }}
+              >
                 {t('hero.cta')}
               </button>
-              <button className="btn-secondary text-lg px-8 py-4">
+              <button 
+                className="btn-secondary text-lg px-8 py-4"
+                onClick={() => {
+                  document.getElementById('about')?.scrollIntoView({ 
+                    behavior: 'smooth' 
+                  });
+                }}
+              >
                 {t('hero.learn')}
               </button>
             </div>

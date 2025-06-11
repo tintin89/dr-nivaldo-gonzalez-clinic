@@ -43,10 +43,10 @@ const translations = {
     'services.psychiatric.desc': 'Professional psychiatric evaluation and medication management.',
     'services.crisis.title': 'Crisis Intervention',
     'services.crisis.desc': '24/7 emergency mental health support and crisis intervention services.',
-    'services.anxiety.title': 'Anxiety Treatment',
-    'services.anxiety.desc': 'Evidence-based approaches to manage and overcome anxiety disorders.',
+    'services.anxiety.title': 'Anxiety Treatment',    'services.anxiety.desc': 'Evidence-based approaches to manage and overcome anxiety disorders.',
     'services.depression.title': 'Depression Support',
     'services.depression.desc': 'Comprehensive treatment plans to help you overcome depression and reclaim your life.',
+    'services.cta.schedule': 'Schedule a Consultation',
     
     // About
     'about.title': 'Meet Dr. Nivaldo Gonzalez',
@@ -57,9 +57,21 @@ const translations = {
     'about.spec1': 'Clinical Psychology',
     'about.spec2': 'Trauma Therapy',
     'about.spec3': 'Anxiety & Depression',
-    'about.spec4': 'Family Systems',
-    'about.mission': 'Our Mission',
+    'about.spec4': 'Family Systems',    'about.mission': 'Our Mission',
     'about.mission.desc': 'To provide accessible, high-quality mental health care in a safe and supportive environment where every individual feels heard, understood, and empowered on their journey to wellness.',
+    
+    // Carousel
+    'carousel.title': 'Our Approach to Mental Health',
+    'carousel.subtitle': 'Discover how we create healing environments and supportive communities',
+    'carousel.therapy.title': 'Individual Therapy Sessions',
+    'carousel.therapy.desc': 'Private, confidential sessions in a comfortable environment designed to help you explore your thoughts and feelings with professional guidance.',
+    'carousel.family.title': 'Family Healing Together', 
+    'carousel.family.desc': 'Strengthening family bonds through guided conversations and therapeutic interventions that bring families closer together.',
+    'carousel.wellness.title': 'Mindfulness & Wellness',
+    'carousel.wellness.desc': 'Learn meditation, breathing techniques, and mindfulness practices that promote inner peace and emotional balance.',
+    'carousel.support.title': 'Community Support Groups',
+    'carousel.support.desc': 'Connect with others who understand your journey in a safe, supportive group environment facilitated by experienced professionals.',
+    'carousel.cta': 'Learn More',
       // Testimonials
     'testimonials.title': 'What Our Patients Say',
     'testimonials.subtitle': 'Real stories from people who found healing with Dr. Gonzalez',
@@ -147,10 +159,10 @@ const translations = {
     'services.psychiatric.desc': 'Evaluación psiquiátrica profesional y manejo de medicamentos.',
     'services.crisis.title': 'Intervención de Crisis',
     'services.crisis.desc': 'Soporte de salud mental de emergencia 24/7 y servicios de intervención de crisis.',
-    'services.anxiety.title': 'Tratamiento de Ansiedad',
-    'services.anxiety.desc': 'Enfoques basados en evidencia para manejar y superar los trastornos de ansiedad.',
+    'services.anxiety.title': 'Tratamiento de Ansiedad',    'services.anxiety.desc': 'Enfoques basados en evidencia para manejar y superar los trastornos de ansiedad.',
     'services.depression.title': 'Apoyo para Depresión',
     'services.depression.desc': 'Planes de tratamiento integrales para ayudarle a superar la depresión y recuperar su vida.',
+    'services.cta.schedule': 'Programar una Consulta',
     
     // About
     'about.title': 'Conozca al Dr. Nivaldo González',
@@ -161,9 +173,21 @@ const translations = {
     'about.spec1': 'Psicología Clínica',
     'about.spec2': 'Terapia de Trauma',
     'about.spec3': 'Ansiedad y Depresión',
-    'about.spec4': 'Sistemas Familiares',
-    'about.mission': 'Nuestra Misión',
+    'about.spec4': 'Sistemas Familiares',    'about.mission': 'Nuestra Misión',
     'about.mission.desc': 'Brindar atención de salud mental accesible y de alta calidad en un ambiente seguro y de apoyo donde cada individuo se sienta escuchado, comprendido y empoderado en su camino hacia el bienestar.',
+    
+    // Carousel
+    'carousel.title': 'Nuestro Enfoque de Salud Mental',
+    'carousel.subtitle': 'Descubre cómo creamos ambientes de sanación y comunidades de apoyo',
+    'carousel.therapy.title': 'Sesiones de Terapia Individual',
+    'carousel.therapy.desc': 'Sesiones privadas y confidenciales en un ambiente cómodo diseñado para ayudarte a explorar tus pensamientos y sentimientos con orientación profesional.',
+    'carousel.family.title': 'Sanación Familiar Juntos',
+    'carousel.family.desc': 'Fortaleciendo los lazos familiares a través de conversaciones guiadas e intervenciones terapéuticas que acercan a las familias.',
+    'carousel.wellness.title': 'Mindfulness y Bienestar',
+    'carousel.wellness.desc': 'Aprende meditación, técnicas de respiración y prácticas de mindfulness que promueven la paz interior y el equilibrio emocional.',
+    'carousel.support.title': 'Grupos de Apoyo Comunitario',
+    'carousel.support.desc': 'Conéctate con otros que entienden tu camino en un ambiente grupal seguro y de apoyo facilitado por profesionales experimentados.',
+    'carousel.cta': 'Saber Más',
       // Testimonials
     'testimonials.title': 'Lo Que Dicen Nuestros Pacientes',
     'testimonials.subtitle': 'Historias reales de personas que encontraron sanación con el Dr. González',

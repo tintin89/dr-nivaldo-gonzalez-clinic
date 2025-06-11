@@ -73,12 +73,25 @@ const Testimonials = () => {
             </h3>
             <p className="text-lg text-secondary-600 mb-6 max-w-2xl mx-auto">
               {t('testimonials.cta.subtitle')}
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="btn-primary text-lg px-8 py-4">
+            </p>            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <button 
+                className="btn-primary text-lg px-8 py-4"
+                onClick={() => {
+                  document.getElementById('contact')?.scrollIntoView({ 
+                    behavior: 'smooth' 
+                  });
+                }}
+              >
                 {t('testimonials.cta.primary')}
               </button>
-              <button className="btn-secondary text-lg px-8 py-4">
+              <button 
+                className="btn-secondary text-lg px-8 py-4"
+                onClick={() => {
+                  document.getElementById('contact')?.scrollIntoView({ 
+                    behavior: 'smooth' 
+                  });
+                }}
+              >
                 {t('testimonials.cta.secondary')}
               </button>
             </div>
