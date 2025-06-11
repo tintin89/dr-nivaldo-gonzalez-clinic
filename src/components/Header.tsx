@@ -68,8 +68,14 @@ const Header = () => {
                 {language === 'en' ? '🇺🇸 EN' : '🇪🇸 ES'}
               </span>
             </button>
-            
-            <button className="btn-primary">
+              <button 
+              className="btn-primary"
+              onClick={() => {
+                document.getElementById('contact')?.scrollIntoView({ 
+                  behavior: 'smooth' 
+                });
+              }}
+            >
               {t('nav.appointment')}
             </button>
           </nav>
@@ -147,9 +153,16 @@ const Header = () => {
                 onClick={() => setIsMenuOpen(false)}
               >
                 {t('nav.contact')}
-              </Link>
-              <div className="px-3 py-2">
-                <button className="btn-primary w-full">
+              </Link>              <div className="px-3 py-2">
+                <button 
+                  className="btn-primary w-full"
+                  onClick={() => {
+                    document.getElementById('contact')?.scrollIntoView({ 
+                      behavior: 'smooth' 
+                    });
+                    setIsMenuOpen(false);
+                  }}
+                >
                   {t('nav.appointment')}
                 </button>
               </div>
