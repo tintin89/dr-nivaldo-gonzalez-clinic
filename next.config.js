@@ -6,9 +6,9 @@ const nextConfig = {
   images: {
     unoptimized: true
   },
-  // Set basePath for GitHub Pages (replace 'your-repo-name' with actual repo name)
-  // basePath: '/your-repo-name',
-  // assetPrefix: '/your-repo-name',
+  // Set basePath for GitHub Pages
+  basePath: '/dr-nivaldo-gonzalez-clinic',
+  assetPrefix: '/dr-nivaldo-gonzalez-clinic',
 }
 
 module.exports = nextConfig
